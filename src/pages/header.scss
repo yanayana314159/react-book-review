@@ -1,0 +1,23 @@
+header {
+  padding-left: 2%;
+  background-color: #c79852;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+
+  .link {
+    font-size: 70px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .sign-out-button {
+    border: #c79852;
+    color: black;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    font-size: large;
+    background-color: #c79852;
+    margin: auto 25px auto auto;
+  }
+}

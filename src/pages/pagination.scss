@@ -1,0 +1,27 @@
+/* ボタンの共通スタイル */
+.button-class {
+  margin: 10px;
+  button {
+    margin-inline: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  /* デフォルトボタンスタイル */
+  .before-button,
+  .after-button {
+    background-color: #c79852; /* ボタンの背景色 */
+    color: #ffffff; /* テキストの色 */
+  }
+
+  /* ホバー時のスタイル */
+  .before-button:hover,
+  .after-button:hover {
+    background-color: #2980b9; /* ホバー時の背景色 */
+  }
+}

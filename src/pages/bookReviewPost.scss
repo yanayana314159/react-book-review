@@ -1,0 +1,23 @@
+.review-post {
+  margin: auto;
+  margin-top: 30px;
+  width: 80%;
+  border: solid 1px #927141;
+  .review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 左寄せに配置 */
+    text-align: center;
+    padding-left: 2%;
+    .review-form-title,
+    .review-form-url,
+    .review-form-detail,
+    .review-form-review {
+      font-size: large;
+      width: 95%;
+    }
+    .review-form-detail {
+      height: 80px;
+    }
+  }
+}

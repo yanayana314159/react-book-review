@@ -1,0 +1,32 @@
+.signup {
+  width: 500px;
+  margin: 0 auto;
+  .error-message {
+    color: #ff3333;
+  }
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 左寄せに配置 */
+    .name-label,
+    .email-label,
+    .password-label {
+      color: #555555;
+      margin-bottom: -20px;
+    }
+    .name-input,
+    .email-input,
+    .password-input {
+      width: 100%;
+      font-size: large;
+      height: 30px;
+      margin-bottom: 25px;
+    }
+    .signin-button {
+      background-color: white;
+      width: 100px;
+      height: 40px;
+      border-radius: 5px;
+    }
+  }
+}

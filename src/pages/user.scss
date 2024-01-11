@@ -1,0 +1,32 @@
+.review {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 左寄せに配置 */
+  .review-record {
+    width: 90%;
+    table {
+      border-collapse: separate;
+      border-spacing: 5px;
+      width: 100%;
+    }
+
+    table th,
+    table td {
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    table th {
+      background-color: #c79852;
+      color: white;
+      border: solid 1px #927141;
+    }
+
+    table td {
+      filter: brightness(1.15);
+      background-color: #e4d4bc;
+      border: solid 1px #af9d85;
+    }
+  }
+}
